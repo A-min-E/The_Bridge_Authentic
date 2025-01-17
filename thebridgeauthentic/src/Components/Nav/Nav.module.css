@@ -1,0 +1,37 @@
+.nav_wrapper{
+    height : 80px;
+    width : 100%;
+    display : flex; 
+    justify-content : space-between;
+    align-items : center;
+    padding : 0 15%;
+    position : fixed;
+    top : 0 ;
+    z-index : 999;
+} 
+
+.nav_wrapper .logo a{
+    font-size : 25px;
+    font-weight: 700;
+    color:#fff;
+
+}
+
+.nav_wrapper .logo a span {
+    color:goldenrod;
+}
+
+
+.nav_wrapper ul li {
+    display : inline-block;
+    nargin : 0 15px; 
+
+}
+
+.nav_wrapper ul li a {
+    color : #1e1e1e;
+    font-weight: 500;
+    font-family: 'poppins';
+    font-size: 15px;
+
+}
