@@ -12,3 +12,18 @@
 
     font-family : "Playfair";
 }
+
+button{
+    height : 45px;
+    width : 150px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 1s;
+    cursor : pointer;
+}
+
+button:hover{
+    border-color: black;
+}
