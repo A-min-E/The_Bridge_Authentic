@@ -18,7 +18,15 @@
     background-position: center;
     position: relative;
 }
-
+.Header_slide::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top:0;
+    left : 0;
+    background: radial-gradient(circle, rgba(255,255,255,0)0%, rgba(0,0,0,1)100%);
+}
 .slide1{
     background-image: url(./../../assets/2.jpg);
 }
@@ -33,8 +41,8 @@
 
 .Header_slide .content{
     position : absolute;
-    bottom : 20%;
-    left : 50px;
+    bottom : 18%;
+    left : 15%;
     z-index: 2;
     display : flex;
     flex-direction: column;
@@ -43,5 +51,27 @@
 
 .Header_slide .content small{
     color: #fff;
-    font-size : 16px;
+    font-size : 23px;
+}
+
+.Header_slide .content h2{
+    color: #fff;
+    font-size : 46px;
+
+} 
+
+.Header_slide .content h2 span {
+    color:darkorange;
+}
+
+.Header_slide p{
+    color :darkorange;
+    font-size: 20px;
+    font-family: 'poppins';
+}
+
+.Header_slide p span{
+    display: block;
+    font-weight: 600;
+    color : #fff;
 }
