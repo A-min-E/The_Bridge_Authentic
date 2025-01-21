@@ -75,3 +75,24 @@
     font-weight: 600;
     color : #fff;
 }
+
+@media screen and (max-width:768px){
+    .Header_slide .content{
+        bottom : 14%;
+    }
+    .Header_slide .content h2{
+        font-size : 30px;
+    }
+}
+@media screen and (max-width:500px){
+    
+    .Header_slide .content h2{
+        font-size : 25px;
+    }
+    .Header_slide .content small{
+        font-size : 16px;
+    }
+    .Header_slide p{
+        font-size : 15px;
+    }
+}
