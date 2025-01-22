@@ -40,3 +40,18 @@ button:hover{
     flex-direction: column;
     gap : 40px;
 }
+
+.section__Title{
+    font-size : 38px;
+    color : #1e1e1e;
+}
+
+.section__Title span{
+    color : #9d7e54;
+}
+
+.section__Heading{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'poppins';
+}
